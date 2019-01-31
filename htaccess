@@ -1,0 +1,36 @@
+
+# HTID:7375303: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+
+php_value display_errors 1
+
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:7375303:
+
+
+
+RewriteEngine on
+
+RewriteRule home index.html
+
+RewriteRule english english.html
+
+RewriteRule firma-kontakt firma-kontakt.html
+
+RewriteRule firma-nasi-partnerzy firma-nasi-partnerzy.html
+
+RewriteRule firma-o-firmie firma-o-firmie.html
+
+RewriteRule firma-przykladowe-realizacje firma-przykladowe-realizacje.html
+
+RewriteRule german german.html
+RewriteRule naprawa-dylatacji-naprawa-rys naprawa-dylatacji-naprawa-rys.html
+
+RewriteRule naprawa-dylatacji-naprawa-szczelin-dylatacyjnych naprawa-dylatacji-naprawa-szczelin-dylatacyjnych.html
+
+RewriteRule naprawa-posadzek naprawa-posadzek.html
+RewriteRule szlifowanie-posadzek szlifowanie-posadzek.html
+
+RewriteRule wykonawstwo-posadzek-posadzki-betonowe wykonawstwo-posadzek-posadzki-betonowe.html
+
+RewriteRule wykonawstwo-posadzek-posadzki-mineralne wykonawstwo-posadzek-posadzki-mineralne.html
+
+RewriteRule wykonawstwo-posadzek-posadzki-zywiczne wykonawstwo-posadzek-posadzki-zywiczne.html
