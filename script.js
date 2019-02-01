@@ -27,7 +27,6 @@ $(document).ready(function(){
     if ($(window).width() < 979) {
         $('#nav_links').hide();
         nav_link_to_hamburger();
-        // console.log('przenieisono menu - mobile');
         slider_item = 1;
         set_slider_items(slider_item);
     }else{
@@ -51,13 +50,13 @@ $(document).ready(function(){
         $('#nav_links').slideToggle();
     });
 
-    // przeniesienie navigacji do menu
+    // nav to menu
     function nav_link_to_menu(){
         $('#nav_mobile_menu').after($('#nav_links'));
         $('body').prepend($('#language_box'));
     }
 
-    // przeniesienie navigacji do hamburgera // mobile
+    // nav to hamburger // mobile
     function nav_link_to_hamburger(){
         $('#nav_mobile_menu').append($('#nav_links'));
         $('#nav_links').append($('#language_box'));
