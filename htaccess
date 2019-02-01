@@ -5,7 +5,7 @@ php_value display_errors 1
 
 # DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:7375303:
 
-
+Cache-Control: max-age=31536000
 
 RewriteEngine on
 
