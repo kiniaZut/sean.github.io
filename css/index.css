@@ -23,6 +23,13 @@ header .container{
     padding-top: 70px;
 }
 /* main */
+
 @media only screen and (max-width: 979px){
     #container_worker_image{ display: none;}
+}
+@media only screen and (max-width: 757px){
+
+}
+@media only screen and (min-width: 1200px){
+
 }
